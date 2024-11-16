@@ -1,4 +1,7 @@
+Command Line Handling of some Key GCP idems
 
+
+<pre>
 # service account terraform-gcp
 # or
 # gcloud auth application-default login
@@ -27,3 +30,4 @@
 #   --flatten="bindings[].members" \
 #   --filter="bindings.members:serviceAccount:terraform-gcp@gcp-terraform-udemy-course.iam.gserviceaccount.com" \
 #   --format="table(bindings.role)"
+</pre>
